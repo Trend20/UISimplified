@@ -14,12 +14,16 @@ const FrequentlyAskedQuestions = () => {
     };
     return (
         <div className="w-full md:w-3/4 lg:w-1/2 mx-auto flex flex-col justify-center items-center p-4 md:p-6">
-            <h2 className="text-3xl font-extrabold text-white sm:text-5xl">
-                Frequently Asked Questions
-            </h2>
+            <div className="max-w-xl">
+                <h2 className="text-3xl font-extrabold text-white sm:text-5xl">Frequently Asked Questions</h2>
+
+                <p className="mt-4 text-gray-400">
+                    Find answers to common questions about our platform.
+                </p>
+            </div>
             <div className="space-y-4 w-full mt-6 md:mt-10 text-gray-400">
-                {faqData.faq.map((faq:FAQ, index:number) => (
-                    <div className="border rounded-lg border-gray-600" key={index}>
+                {faqData.faq.map((faq: FAQ, index: number) => (
+                    <div className="rounded-lg" key={index}>
                         <button
                             className="w-full flex items-center justify-between p-3 md:p-4"
                             onClick={() => toggleAccordion(index)}

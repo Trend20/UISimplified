@@ -1,7 +1,6 @@
-import {FaGithub} from "react-icons/fa6";
 import Link from "next/link";
 
-const Contribute = () => {
+const WatchDemo = () => {
     return(
         <Link
             target={'_blank'}
@@ -13,4 +12,4 @@ const Contribute = () => {
     )
 }
 
-export default Contribute;
+export default WatchDemo;

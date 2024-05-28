@@ -2,55 +2,83 @@
   {
     "faq":[
       {
-        "question": "What is Looper?",
-        "answer": "Looper is a tool designed to help you save, search, and organize your favorite websites effortlessly. With powerful features like collections and advanced search, it streamlines your browsing experience."
+        "question": "What is UISimplified?",
+        "answer": "UISimplified is a platform offering pre-built, customizable UI components to help developers build stunning user interfaces quickly and efficiently."
       },
       {
-        "question": "How do I save a link using the Bookmark Manager?",
-        "answer": "You can save a link with just one click! Use our browser extension to quickly save any webpage you’re on. You can also manually add links through the Looper dashboard."
+        "question": "How do I get started?",
+        "answer": "Simply sign up for an account, choose a pricing plan, and start integrating our components into your project."
       },
       {
-        "question": "Can I organize my bookmarks into categories?",
-        "answer": "Absolutely! You can create customized collections to organize your bookmarks. Group related links together for easy access and a clutter-free browsing experience."
+        "question": "Can I customize the components?",
+        "answer": "Yes, all our components are highly customizable to fit your specific design requirements."
       },
       {
-        "question": "Is there a limit to the number of bookmarks I can save?",
-        "answer": "With our Free Plan, you can save up to 100 bookmarks. For unlimited bookmarks, consider upgrading to our Pro or Premium plans, which offer additional features and benefits."
+        "question": "Do you offer support?",
+        "answer": "Yes, we offer priority support for Pro and Enterprise users. Free users can access our documentation and community forums."
       },
       {
-        "question": "How do I install the browser extension?",
-        "answer": "Installing the browser extension is easy. Simply visit the extensions page in your browser’s store, search for our Bookmark Manager, and click ‘Install.’ Follow the prompts, and you’ll be set up in no time."
-      },
-      {
-        "question": "What support options are available if I encounter issues?",
-        "answer": "For any issues or questions, you can reach out to our support team through the Contact Us page. Pro and Premium plan users receive priority support. Additionally, our comprehensive Help Center provides guides and troubleshooting tips."
-      },
-      {
-        "question": "How can I contribute to the development of the project?",
-        "answer": "We welcome contributions from our user community! Visit our GitHub repository to fork, clone, and code. Submit pull requests and join the discussions to help us improve and expand the project."
+        "question": "What if I need a custom component?",
+        "answer": "Enterprise users can request custom components. Contact our sales team for more details."
       }
     ],
     "features": [
       {
         "id":1,
-        "title":"Store Links Easily.",
-        "description":"Save your favorite websites with a single click.",
+        "title":"Wide Range of Components",
+        "description":"Access a vast library of pre-built components",
         "imageUrl":"/icons/store.svg"
       },
       {
         "id":2,
-        "title":"Powerful Search.",
-        "description":"Quickly find any saved link with our advanced search functionality.",
+        "title":"Easy Customization",
+        "description":"Modify components to fit your design needs with ease.",
         "imageUrl":"/icons/search.svg"
       },
       {
         "id":3,
-        "title":"Organize Into Collections.",
-        "description":"Create customized bookmarks to organize your bookmarks.",
+        "title":"Responsive Design",
+        "description":"Ensure your components look great on all devices.",
+        "imageUrl":"/icons/collection.svg"
+      },
+      {
+        "id":4,
+        "title":"Accessibility",
+        "description":"Components designed with accessibility in mind.",
+        "imageUrl":"/icons/collection.svg"
+      },
+      {
+        "id":5,
+        "title":"Themes and Styles",
+        "description":"Choose from a variety of themes or create your own.",
+        "imageUrl":"/icons/collection.svg"
+      },
+      {
+        "id":6,
+        "title":"Comprehensive Documentation",
+        "description":"Detailed guides and examples for seamless integration.",
+        "imageUrl":"/icons/collection.svg"
+      },
+      {
+        "id":7,
+        "title":"Fast Integration",
+        "description":"Quickly add components to your projects with minimal setup.",
+        "imageUrl":"/icons/collection.svg"
+      },
+      {
+        "id":8,
+        "title":"Regular Updates",
+        "description":"Stay updated with new components and features regularly added.",
+        "imageUrl":"/icons/collection.svg"
+      },
+      {
+        "id":9,
+        "title":"Unit Tests",
+        "description":"All the components are tested and have tests attached.",
         "imageUrl":"/icons/collection.svg"
       }
     ],
-   "extensions": [
+   "stack": [
       {
         "id": 1,
         "name":"Chrome",

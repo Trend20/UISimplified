@@ -1,6 +1,6 @@
 "use client"
 import Logo from "@/components/Logo";
-import Contribute from "@/components/Contribute";
+import WatchDemo from "@/components/WatchDemo";
 import Link from "next/link";
 
 const Header = () =>{
@@ -19,7 +19,7 @@ const Header = () =>{
                     </div>
                     <div className="flex items-center gap-4">
                         <div className="sm:flex sm:gap-4">
-                            <Contribute />
+                            <WatchDemo />
                         </div>
                     </div>
                 </div>
