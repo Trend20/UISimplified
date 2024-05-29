@@ -14,7 +14,7 @@ const FrequentlyAskedQuestions = () => {
     };
     return (
         <div className="w-full md:w-3/4 lg:w-1/2 mx-auto flex flex-col justify-center items-center p-4 md:p-6">
-            <div className="max-w-xl">
+            <div className="w-full flex flex-col justify-center items-center">
                 <h2 className="text-3xl font-extrabold text-white sm:text-5xl">Frequently Asked Questions</h2>
 
                 <p className="mt-4 text-gray-400">
