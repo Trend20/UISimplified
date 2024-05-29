@@ -1,4 +1,4 @@
-import extensionsData from '../../data/info.json'
+import stackData from '../../data/info.json'
 import SingleStack from "@/components/techstack/SingleStack";
 import {Extension} from "@/types/Extension";
 
@@ -13,9 +13,9 @@ const TechStack = () =>{
                         Our platform is built using the latest and most reliable technologies.
                     </p>
                 </div>
-                <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
+                <div className="mt-8 flex items-center justify-center gap-8 md:mt-16 md:gap-12">
                     {
-                        extensionsData.stack.map((extension:Extension) => (
+                        stackData.stack.map((extension:Extension) => (
                             <SingleStack key={extension.id} extension={extension} />
                         ))
                     }

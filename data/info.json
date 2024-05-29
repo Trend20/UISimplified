@@ -81,19 +81,39 @@
    "stack": [
       {
         "id": 1,
-        "name":"Chrome",
-        "icon":"/icons/chrome.svg"
+        "name":"NextJS",
+        "icon":"/icons/tailwindcss.svg"
       },
       {
         "id": 2,
-        "name":"Firefox",
-        "icon":"/icons/firefox.svg"
+        "name":"TailwindCSS",
+        "icon":"/icons/tailwindcss.svg"
       },
       {
         "id": 3,
-        "name":"Brave",
-        "icon":"/icons/brave.svg"
-      }
+        "name":"Prisma",
+        "icon":"/icons/tailwindcss.svg"
+      },
+     {
+       "id": 4,
+       "name":"MongoDB",
+       "icon":"/icons/tailwindcss.svg"
+     },
+     {
+       "id": 5,
+       "name":"MongoDB",
+       "icon":"/icons/tailwindcss.svg"
+     },
+     {
+       "id": 6,
+       "name":"MongoDB",
+       "icon":"/icons/tailwindcss.svg"
+     },
+     {
+       "id": 7,
+       "name":"MongoDB",
+       "icon":"/icons/tailwindcss.svg"
+     }
    ],
     "pricing": {
     "free": [
