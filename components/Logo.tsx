@@ -5,7 +5,7 @@ const Logo = () => {
     return (
         <div className="md:flex md:items-center md:gap-12">
             <Link className="block text-teal-600" href="/">
-                <Image src={'/logo.svg'} alt={'logo'} width={100} height={100}/>
+                <Image src={'/icons/darkLogo.png'} alt={'logo'} width={100} height={100}/>
             </Link>
         </div>
     )
