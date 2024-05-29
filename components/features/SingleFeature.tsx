@@ -14,7 +14,7 @@ const SingleFeature = ({feature}: SingleFeatureProps) => {
             <div className="flex items-center justify-center flex-col">
                 <h2 className="text-lg font-bold">{feature.title}</h2>
 
-                <p className="mt-1 text-sm text-gray-400">
+                <p className="mt-1 text-sm text-gray-400 text-center">
                     {feature.description}
                 </p>
             </div>

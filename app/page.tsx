@@ -5,6 +5,7 @@ import FrequentlyAskedQuestions from "@/components/faq/FrequentlyAskedQuestions"
 import Demo from "@/components/demo/Demo";
 import SampleComponents from "@/components/SampleComponents/SampleComponents";
 import TechStack from "@/components/techstack/TechStack";
+import Testimonials from "@/components/testimonials/Testimonials";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <Features />
         <SampleComponents />
         <Pricing />
+        <Testimonials />
         <TechStack />
         <FrequentlyAskedQuestions />
     </main>
