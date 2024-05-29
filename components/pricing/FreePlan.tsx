@@ -27,7 +27,7 @@ const FreePlan = () => {
             </ul>
             <a
                 href="#"
-                className="mt-8 block rounded-full border border-[#4F46E5FF] bg-white px-12 py-3 text-center text-sm font-medium text-[#4F46E5FF] hover:ring-1 hover:ring-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                className="mt-8 block rounded-full border border-[#06bcc1] bg-white px-12 py-3 text-center text-sm font-medium text-[#06bcc1] hover:ring-1 hover:ring-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
             >
                 Get Started
             </a>

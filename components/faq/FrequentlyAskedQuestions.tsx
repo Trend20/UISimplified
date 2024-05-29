@@ -31,7 +31,7 @@ const FrequentlyAskedQuestions = () => {
                             <span>{faq.question}</span>
                             <span className="text-lg md:text-xl">
                             {openIndex === index ? (
-                                <LiaTimesSolid fill="#4F46E5FF"/>
+                                <LiaTimesSolid fill="#06bcc1"/>
                             ) : (
                                 <FiPlus fill="#4ccd99"/>
                             )}

@@ -4,7 +4,7 @@ import Image from "next/image";
 const ProPlan = () => {
     return (
         <div
-            className="rounded-2xl border border-[#4F46E5FF] p-6 shadow-sm ring-1 ring-indigo-600 sm:order-last sm:px-8 lg:p-12"
+            className="rounded-2xl border border-[#06bcc1] p-6 shadow-sm ring-1 ring-indigo-600 sm:order-last sm:px-8 lg:p-12"
         >
             <div className="text-center">
                 <h2 className="text-lg font-medium text-white">
@@ -28,7 +28,7 @@ const ProPlan = () => {
             </ul>
             <a
                 href="#"
-                className="mt-8 block rounded-full border border-[#4F46E5FF] bg-[#4F46E5FF] px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 hover:ring-1 hover:ring-indigo-700 focus:outline-none focus:ring active:text-indigo-500"
+                className="mt-8 block rounded-full border border-[#06bcc1] bg-[#06bcc1] px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 hover:ring-1 hover:ring-indigo-700 focus:outline-none focus:ring active:text-indigo-500"
             >
                 Get Started
             </a>
