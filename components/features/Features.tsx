@@ -6,10 +6,10 @@ const Features = () =>{
     return (
         <section className="text-white w-full flex justify-center items-center">
             <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 flex flex-col justify-center items-center">
-                <div className="max-w-xl">
+                <div className="max-w-xl flex flex-col justify-center items-center">
                     <h2 className="text-3xl font-extrabold text-white sm:text-5xl">Why Choose Us?</h2>
 
-                    <p className="mt-4 text-gray-400">
+                    <p className="mt-4 text-gray-400 text-center">
                         Our platform offers a comprehensive set of features to make UI development faster and easier.
                     </p>
                 </div>

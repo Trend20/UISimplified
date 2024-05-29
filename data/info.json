@@ -27,55 +27,55 @@
         "id":1,
         "title":"Wide Range of Components",
         "description":"Access a vast library of pre-built components",
-        "imageUrl":"/icons/store.svg"
+        "imageUrl":"/icons/components.svg"
       },
       {
         "id":2,
         "title":"Easy Customization",
         "description":"Modify components to fit your design needs with ease.",
-        "imageUrl":"/icons/search.svg"
+        "imageUrl":"/icons/customize.svg"
       },
       {
         "id":3,
         "title":"Responsive Design",
         "description":"Ensure your components look great on all devices.",
-        "imageUrl":"/icons/collection.svg"
+        "imageUrl":"/icons/responsive.svg"
       },
       {
         "id":4,
         "title":"Accessibility",
         "description":"Components designed with accessibility in mind.",
-        "imageUrl":"/icons/collection.svg"
+        "imageUrl":"/icons/accessibility.svg"
       },
       {
         "id":5,
         "title":"Themes and Styles",
         "description":"Choose from a variety of themes or create your own.",
-        "imageUrl":"/icons/collection.svg"
+        "imageUrl":"/icons/themes.svg"
       },
       {
         "id":6,
         "title":"Comprehensive Documentation",
         "description":"Detailed guides and examples for seamless integration.",
-        "imageUrl":"/icons/collection.svg"
+        "imageUrl":"/icons/docs.svg"
       },
       {
         "id":7,
         "title":"Fast Integration",
         "description":"Quickly add components to your projects with minimal setup.",
-        "imageUrl":"/icons/collection.svg"
+        "imageUrl":"/icons/integration.svg"
       },
       {
         "id":8,
         "title":"Regular Updates",
         "description":"Stay updated with new components and features regularly added.",
-        "imageUrl":"/icons/collection.svg"
+        "imageUrl":"/icons/updates.svg"
       },
       {
         "id":9,
         "title":"Unit Tests",
         "description":"All the components are tested and have tests attached.",
-        "imageUrl":"/icons/collection.svg"
+        "imageUrl":"/icons/tests.svg"
       }
     ],
    "stack": [

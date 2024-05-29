@@ -10,13 +10,13 @@ import TechStack from "@/components/techstack/TechStack";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 w-full">
-      <Hero />
-        <Demo />
-      <Features />
+        <Hero />
+        {/*<Demo />*/}
+        <Features />
         <SampleComponents />
-      <Pricing />
+        <Pricing />
         <TechStack />
-      <FrequentlyAskedQuestions />
+        <FrequentlyAskedQuestions />
     </main>
   );
 }
