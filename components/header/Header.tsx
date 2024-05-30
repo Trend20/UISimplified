@@ -3,6 +3,19 @@ import Logo from "@/components/Logo";
 import Link from "next/link";
 import LoginButton from "@/components/LoginButton";
 
+const navLinks = [
+    {
+        id:1,
+        name:'Components',
+        url:'/components'
+    },
+    {
+        id:2,
+        name:'Pricing',
+        url:'/pricing'
+    },
+]
+
 const Header = () =>{
     return (
         <header className="w-full py-4 sticky top-0 bg-black text-white p-4 z-50">
@@ -12,11 +25,11 @@ const Header = () =>{
                         <Logo />
                     </div>
                     <div className="flex items-center space-x-5 w-1/4 font-light">
-                        <Link href={'/'}>Home</Link>
-                        <Link href={'/'}>About</Link>
-                        <Link href={'/'}>Features</Link>
-                        <Link href={'/'}>Pricing</Link>
-                        <Link href={'/'}>Contact</Link>
+                        {
+                            navLinks.map(link => (
+                                <Link key={link.id} href={link.url} className="flex font-medium text-sm">{link.name}</Link>
+                            ))
+                        }
                     </div>
                     <div className="flex items-center gap-4">
                         <LoginButton />

@@ -3,7 +3,7 @@ import Link from "next/link";
 const GetStarted = () => {
     return(
         <Link
-            className="block w-full rounded-full bg-[#06bcc1] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+            className="block w-full rounded-full bg-[#06bcc1] px-12 py-3 text-sm font-medium text-white hover:bg-transparent border border-[#06bcc1] hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
             href={"/auth"}
         >
             Get Started

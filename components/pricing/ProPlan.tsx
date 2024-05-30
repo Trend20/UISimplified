@@ -28,7 +28,7 @@ const ProPlan = () => {
             </ul>
             <a
                 href="#"
-                className="mt-8 block rounded-full border border-[#06bcc1] bg-[#06bcc1] px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 hover:ring-1 hover:ring-indigo-700 focus:outline-none focus:ring active:text-indigo-500"
+                className="mt-8 block rounded-full border border-[#06bcc1] bg-[#06bcc1] hover:bg-transparent px-12 py-3 text-center text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring active:text-indigo-500"
             >
                 Get Started
             </a>

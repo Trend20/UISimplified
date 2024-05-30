@@ -7,8 +7,9 @@ interface SingleExtensionProps {
 
 const SingleStack = ({extension}:SingleExtensionProps) => {
     return (
-        <div className="flex items-center justify-center cursor-pointer rounded-lg p-3">
-            <Image src={extension.icon} alt={extension.name} width={100} height={100}/>
+        <div className="flex items-center justify-center cursor-pointer rounded-lg p-3 space-x-3">
+            <Image src={extension.icon} alt={extension.name} width={70} height={70}/>
+            <p>{extension.name}</p>
         </div>
     )
 }

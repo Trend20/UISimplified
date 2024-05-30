@@ -82,7 +82,7 @@
       {
         "id": 1,
         "name":"NextJS",
-        "icon":"/icons/tailwindcss.svg"
+        "icon":"/icons/nextjs.svg"
       },
       {
         "id": 2,
@@ -92,27 +92,12 @@
       {
         "id": 3,
         "name":"Prisma",
-        "icon":"/icons/tailwindcss.svg"
+        "icon":"/icons/prisma.svg"
       },
      {
        "id": 4,
        "name":"MongoDB",
-       "icon":"/icons/tailwindcss.svg"
-     },
-     {
-       "id": 5,
-       "name":"MongoDB",
-       "icon":"/icons/tailwindcss.svg"
-     },
-     {
-       "id": 6,
-       "name":"MongoDB",
-       "icon":"/icons/tailwindcss.svg"
-     },
-     {
-       "id": 7,
-       "name":"MongoDB",
-       "icon":"/icons/tailwindcss.svg"
+       "icon":"/icons/mongo.svg"
      }
    ],
     "pricing": {
